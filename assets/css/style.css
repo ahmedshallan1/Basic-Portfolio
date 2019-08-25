@@ -1,0 +1,42 @@
+body {
+background-color: darkgray
+}
+h1 {
+    background-color: aqua;
+    height: 40px;
+    margin: 5px;
+width: 20%;
+}
+h2 {
+    text-align: right;
+}
+section {
+    text-align: center;
+    background-color: aliceblue;
+height: 300px;
+margin: 70px;
+}
+h3 {
+    text-align: left;
+    color: green;
+    margin: 20px;
+    padding: 15px;
+}
+img {
+margin-right: 15px;
+margin-left: 25px;
+}
+.line {
+    background-color: gray;
+    height: 1px;
+    margin: 10px
+}
+#footer {
+    position: fixed;
+    bottom:0;
+    width:120%;
+    height:60px;   /* Height of the footer */
+    background:rgb(36, 37, 37);
+    clear: both;
+
+ }
