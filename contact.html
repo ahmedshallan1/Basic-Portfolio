@@ -1,31 +1,56 @@
-<html>
+<!doctype html>
+<html lang="en-us">
+
 <head>
-    <title>Contact Form</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <title>Contact | Ahmed Shallan</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-    <div class="cantact-title">
-            <h1>Got Any Question?</h1>
-            <h2>Just Ask!</h2>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Ahmed Shallan</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
+  </header>
 
-    <div class="contact-form">
-         <form id="contact-form" method="post" action="contact-form-handler.php">
-         <input name="name" type="text" class="form-control" placeholder="Your Name" required>
-         <br>
-         <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
-             
-             <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea><br>
-             
-             <input type="submit" class="form-control submit" value="SEND MESSAGE">
-         
-         </form>
-     </div>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
+    </section>
 
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
 </body>
-</html>
 
+</html> 
